@@ -1,0 +1,48 @@
+<section class="update">
+
+    <h3>welcome Admin</h3>
+
+     
+
+<form method="post"  action="/update" >
+
+ 
+
+    <div class="input">           
+
+            <input type="hidden" id="_id" name="_id" value="{{this.emp._id}}" >
+
+        </div>
+
+        
+
+        <div class="input">
+
+            <label for="name">Name</label>
+
+            <input class="box" type="text" name="name" id="name" 
+            placeholder="Name"  required /><br> 
+
+        </div>
+
+        <div class="input">
+
+            <label for="password">Password</label>
+
+            <input class="box" type="password" name="password" 
+            id="password" placeholder="Password " required/>
+        </div>
+
+              <div class="btn-group">
+
+   <br>           
+<a href="/find"><button></button>List</a>
+<br>
+<br>
+        <button type="submit" value="submit" >UPDATE</button>
+
+              </div>
+
+    </form>
+
+</section>
